@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-console.log(">> program start", process.stdin.isTTY);
-process.title = "abbyTool";
-console.log(">> ", process.title);
+process.title = "packet_tool";
 const fs = require('fs');
 const os = require('os');
 const { Buffer } = require('node:buffer');
